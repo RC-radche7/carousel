@@ -27,7 +27,7 @@ export const ImageSlider = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
-    }, 3000); // Change image every 4 seconds
+    }, 4000); // Change image every 4 seconds
 
     return () => clearInterval(intervalId); // Cleanup interval on component unmount
   }, [images.length]);
