@@ -23,15 +23,6 @@ export const ImageSlider = () => {
         console.log(error);
       });
   }, []);
-
-  // useEffect(() => {
-  //   const intervalId = setInterval(() => {
-  //     setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
-  //   }, 3000); // Change image every 3 seconds
-
-  //   return () => clearInterval(intervalId); // Cleanup interval on component unmount
-  // }, [images.length]);
-
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-purple-500 to-pink-500">
       <div className="text-center mb-8">
