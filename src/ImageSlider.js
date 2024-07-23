@@ -27,7 +27,7 @@ export const ImageSlider = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-purple-500 to-pink-500">
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold text-white mb-4">Image Slider</h1>
-        <p className="text-lg text-white">Click "Next" or "Previous" to navigate through the images, or wait for the automatic slideshow.</p>
+        <p className="text-lg text-white">Click "Next" or "Previous" to navigate through the images.</p>
       </div>
       <div className="flex items-center space-x-4">
         <button
